@@ -762,6 +762,16 @@ section {
 .services .iconbox-orange i {
   color: #ffa76e;
 }
+
+.services .iconbox-green i {
+  color: #158f46;
+}
+.services .iconbox-green:hover .icon i {
+  color: #fff;
+}
+.services .iconbox-green:hover .icon path {
+  fill: #158f46;
+}
 .services .iconbox-orange:hover .icon i {
   color: #fff;
 }
