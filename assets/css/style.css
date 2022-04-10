@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  background: url("../img/ba87d8ba-697d-4c30-9ff9-1450e3cd638f[518].JPG") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1057,4 +1057,63 @@ section {
 }
 #footer .credits {
   font-size: 13px;
+}
+
+.serviceses .icon-box {
+  text-align: center;
+  padding: 70px 20px 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+}
+.serviceses .icon-box .icon {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
+}
+.serviceses .icon-box .icon i {
+  font-size: 36px;
+  transition: 0.5s;
+  position: relative;
+}
+.serviceses .icon-box .icon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.serviceses .icon-box .icon svg path {
+  transition: 0.5s;
+  fill: #f5f5f5;
+}
+.serviceses .icon-box h4 {
+  font-weight: 600;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+}
+.serviceses .icon-box h4 a {
+  color: #45505b;
+  transition: ease-in-out 0.3s;
+}
+.serviceses .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.serviceses .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+}
+.serviceses .iconbox-yellow i {
+  color: #ffbb2c;
+}
+.serviceses .iconbox-yellow:hover .icon i {
+  color: #fff;
+}
+.serviceses .iconbox-yellow:hover .icon path {
+  fill: #ffbb2c;
 }
